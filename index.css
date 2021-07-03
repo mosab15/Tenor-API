@@ -1,0 +1,91 @@
+body{
+  background-color: rgb(128, 128, 128)
+}
+ 
+h1 {
+  margin-bottom: 1rem;  
+  font-weight: bold;
+  font-style: oblique;
+  font-family: "Times New Roman";
+  font-size: 35px;
+  color: rgb(14, 9, 9);
+  text-align: center;
+}
+  
+#search {
+  width: 20%;
+  display: inline-block;
+  margin-left:28rem;
+  padding: 16px;
+  font-size: 15px;
+  font-family: Helvetica, sans-serif;
+}
+  
+#searchButton {
+  width: 10%;
+  display: inline-block;
+  padding: 16px;
+  background-color: rgb(134, 28, 28);
+  color: white;
+  font-size: 15px;
+  font-family: Helvetica, sans-serif;
+  border: 1px solid rgb(128, 0, 21);
+  border-radius: 5px;
+}
+
+
+  
+/*------footer-------*/
+
+.footer {
+  background-color: rgb(32, 32, 32);
+  padding: 1rem 1rem;
+  line-height: 1rem;
+  margin-top: 25rem;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  color: white;
+}
+
+.footer-center a:link,
+.footer-center a:visited {
+  display: block;
+  color: rgb(180, 22, 22);
+  font-size: 15px;
+  transition: 600ms;
+  font-family: serif;
+}
+
+.footer-center a:hover {
+  color: rgb(131, 133, 132);
+}
+
+.footer-center div {
+  font-size: 15px;
+  color: white;
+  font-family: sans-serif;
+}
+
+.footer-center h3 {
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+@media only Screen and (max-width: 600px) {
+  .mobile-view {
+    overflow-x: hidden;
+  }
+  .col-3 img {
+    width: 130%;
+  }
+  .logo img {
+    width: 70%;
+  }
+  .navbar {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
